@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#about,
+#home,
+#skills,
+#projects,
+#contact {
+  scroll-margin-top: 60px; /* same as navbar height */
+
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
